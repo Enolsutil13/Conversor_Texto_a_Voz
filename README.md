@@ -56,3 +56,11 @@ Este proyecto está bajo la licencia MIT. Puedes utilizarlo, modificarlo y compa
 
 💡 Si te gusta este proyecto, ¡no olvides darle una estrella ⭐ en GitHub!
 
+
+
+📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes utilizarlo, modificarlo y compartirlo libremente.
+
+💡 Si te gusta este proyecto, ¡no olvides darle una estrella ⭐ en GitHub!
+
