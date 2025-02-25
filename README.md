@@ -57,6 +57,66 @@ Este proyecto está bajo la licencia MIT. Puedes utilizarlo, modificarlo y compa
 
 💡 Si te gusta este proyecto, ¡no olvides darle una estrella ⭐ en GitHub!
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 📢 Text to Speech Converter with Voice Cloning and Advanced Settings
+
+Welcome to Text to Speech Converter, a Streamlit-based app that converts text to audio using advanced speech synthesis models. It allows speed, pitch, and intonation adjustment, as well as the option of voice cloning using a reference file.
+
+# 🚀 Features
+
+✅ Multilingual Support: Convert text to speech in English, Spanish, German, and Chinese.✅ Voice Cloning: Uses an audio file as a reference to generate a custom voice.✅ Custom Settings: Control speed, pitch, and intonation.✅ Flexible Input: Allows you to enter text manually or upload files in .txt, .pdf, or .docx formats.✅ MP3 Output: Generates audio files with optimized quality.✅ Intuitive Interface: Based on Streamlit, with a simple and effective user experience.
+
+# 📦 Installation
+
+To run this project on your local machine, follow these steps:
+
+1️⃣ Clone the repository
+
+git clone https://github.com/your-user/your-repository.git
+cd your-repository
+
+2️⃣ Create a virtual environment (optional but recommended)
+
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+
+3️⃣ Install dependencies
+
+pip install -r requirements.txt
+
+4️⃣ Run the application
+
+streamlit run app.py
+
+# 🛠 Technologies Used
+
+Python 🐍
+
+Streamlit for the web interface
+
+TTS (Text-to-Speech API) for speech synthesis
+
+PyMuPDF for extracting text from PDFs
+
+python-docx for processing documents Word
+
+Pydub for audio manipulation
+
+# 🎯 Usage
+
+1️⃣ Enter or upload a text file.2️⃣ Choose language and voice.3️⃣ Set speed, pitch, and intonation.4️⃣ (Optional) Upload an audio file for voice cloning.5️⃣ Press "Convert to Audio" and download the result.
+
+# 📝 Notes
+
+🔹 Requires GPU for better performance with advanced TTS models.🔹 Voice cloning is optional and may improve customization.
+
+# 📄 License
+
+This project is under the MIT license. You are free to use, modify, and share it.
+
+💡 If you like this project, don't forget to give it a star ⭐ on GitHub!
+
 
 
 📄 Licencia
