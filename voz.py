@@ -1,3 +1,8 @@
+import os
+# Desactivar TorchScript y forzar TTS a aceptar la licencia vía variable de entorno
+os.environ["TORCH_JIT"] = "0"
+os.environ["COQUI_TOS_AGREED"] = "1"  # Ajusta si tu TTS usa otro nombre de variable (p.ej. "TTS_ACCEPT_EULA")
+
 import streamlit as st
 from TTS.api import TTS
 from pydub import AudioSegment
@@ -5,7 +10,7 @@ import fitz  # PyMuPDF
 import docx
 import io
 import torch
-import os
+
 
 # Detectar el dispositivo (GPU o CPU)
 device = "cuda" if torch.cuda.is_available() else "cpu"
