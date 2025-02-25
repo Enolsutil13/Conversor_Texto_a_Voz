@@ -1,5 +1,5 @@
 streamlit
-TTS
+TTS==0.22.0
 pydub
 PyMuPDF
 python-docx
