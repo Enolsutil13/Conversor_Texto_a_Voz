@@ -49,6 +49,7 @@ Pydub para manipulación de audio
 # 📝 Notas
 
 🔹 Requiere GPU para un mejor rendimiento con modelos TTS avanzados.🔹 La clonación de voz es opcional y puede mejorar la personalización.
+🔹 Debido a las restricciones de streamlit, no se puede hacer un deploy de la App, ya que trata de descargar el modelo. Por lo tanto la mejor opción es correr el archivo de manera local tal y como se especifica en el apartado instalación.
 
 # 📄 Licencia
 
@@ -110,6 +111,7 @@ Pydub for audio manipulation
 # 📝 Notes
 
 🔹 Requires GPU for better performance with advanced TTS models.🔹 Voice cloning is optional and may improve customization.
+🔹 Due to streamlit restrictions, it is not possible to deploy the App, as it tries to download the model. Therefore, the best option is to run the file locally as specified in the installation section.
 
 # 📄 License
 
