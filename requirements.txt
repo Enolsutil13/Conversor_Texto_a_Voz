@@ -1,0 +1,6 @@
+streamlit
+TTS
+pydub
+PyMuPDF
+python-docx
+torch
